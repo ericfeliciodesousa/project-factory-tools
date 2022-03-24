@@ -74,3 +74,8 @@ div.diameter > h2 {
     display: inline-block;
     text-align: center;
 }
+footer{
+    background-color: rgb(150, 150, 238); 
+    color: white;
+    text-align: center;
+}
