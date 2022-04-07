@@ -6,20 +6,51 @@
 }
 header {
     width: auto;
-    height: 200px;
-    background-color: rgb(150, 150, 238);
+    height: 100px;
+    background-color: rgb(121, 163, 253);
 }
 header > h1 {
-    padding: 40px 40px 0px 40px;
+    padding: 15px 40px 0px 40px;
     color: white;
-    text-align: center
+    text-align: center;
+    font-size: 1.5em;
 }
 header > h2 {
-    padding: 30px;
+    padding: 10px;
     text-align: center;
+    font-size: 1.1em;
 }
 body {
     background-color: rgb(207, 205, 205);
+}
+table{
+    width: auto;
+    height: 60px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9em;
+}
+thead > tr > th {
+    position: relative;
+    background-color: rgb(161, 159, 159);
+}
+caption{
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+td.diametro{
+    background-color:rgb(161, 159, 159);
+    width: 90px;
+}
+th.none{
+    border-top: none;
+    border-left: none;
+    background-color: white;
+}
+td, th {
+    border: solid black;
+    padding: 7px;
 }
 main {
     display: block;
@@ -32,7 +63,7 @@ main {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 div > h1 {
-    background-color: rgb(150, 150, 238);
+    background-color: rgb(121, 163, 253);
     text-align: center;
     color: white;
     border-radius: 5px 5px 0px 0px;
@@ -65,6 +96,7 @@ div.valores {
 }
 div.diameter {
     margin: auto;
+    padding: 10px;
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -74,8 +106,11 @@ div.diameter > h2 {
     display: inline-block;
     text-align: center;
 }
+div.diameter#resultado2{
+    padding: 10px;
+}
 footer{
-    background-color: rgb(150, 150, 238); 
+    background-color: rgb(66, 113, 216); 
     color: white;
     text-align: center;
 }
